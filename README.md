@@ -11,34 +11,32 @@
   </p>
  
   <p align="center">
-    <a href="https://github.com/zhanyeye/clash-rules-lite/blob/main/proxy-rules.txt">代理规则列表</a> |
-    <a href="https://github.com/zhanyeye/clash-rules-lite/blob/main/microsoft-rules.txt">微软服务规则列表</a> |
-    <a href="https://github.com/zhanyeye/clash-rules-lite/blob/main/blacklist-rules.txt">黑名单规则列表</a>
+    <a href="https://github.com/17344config/clash-config/blob/master/external-config/external_config.ini">外部配置表</a> |
+    <a href="https://github.com/17344config/clash-config/blob/master/rules/MSService-rules.txt">微软服务规则列表</a> |
+    <a href="https://github.com/17344config/clash-config/blob/master/rules/AIService-rules.txt">AI服务规则表</a>
   </p>
 
 </p>
 
 <p>
   <pre align="center">
-  https://cdn.jsdelivr.net/gh/zhanyeye/clash-rules-lite@release/proxy-rules.txt    
-  https://cdn.jsdelivr.net/gh/zhanyeye/clash-rules-lite@release/microsoft-rules.txt
-  https://cdn.jsdelivr.net/gh/zhanyeye/clash-rules-lite@release/blacklist-rules.txt</pre>
+  https://cdn.jsdelivr.net/gh/17344config/clash-config@release/external_config.ini   
+  https://cdn.jsdelivr.net/gh/17344config/clash-config@release/MSService-rules.txt
+  https://cdn.jsdelivr.net/gh/17344config/clash-config@release/AIService-rules.txt</pre>
 </p>
-<p align="center">
-已稳定使用2年的机场推荐：https://sspcloud.net/#/register?code=4L83QEU9
-</p>
+
 
 ### 工具介绍
 + Clash 默认的GFW代理规则内容太多，使用过程中明显感觉到有延迟
 + 本工具的想法是代理规则一边用一边添加，毕竟我们访问的网站应该很有限
 + 该工具的目的是删除不必要的代理规则，方便用户自定义代理的内容
-+ 代理规则放在github仓库中方便多设备同步，只需编辑[rules.txt](https://github.com/zhanyeye/clash-rules-lite/blob/main/rules.txt)即可
++ 代理规则参考[clash-rules](https://github.com/Loyalsoldier/clash-rules)即可
 + 当用户更新规则后，使用Github Actions自动将规则缓存到免费CDN上 
 + 用户在 github 上更新规则后，在 clash 的 providers 上点击刷新即可拉取更新
 
 
 ### 如何自定义
-1. fork 本仓库：[Fork zhanyeye/clash-rules-lite](https://github.com/zhanyeye/clash-rules-lite/fork) 
+1. fork 本仓库：[17344config/clash-config](https://github.com/17344config/clash-config/fork) 
 2. 触发 GitHub Action 中的 `Generate Rules for Clash` 工作流
 3. 编辑 `xx-rules.txt` 以自定义规则
 4. 在对应的 Clash 上刷新配置文件
