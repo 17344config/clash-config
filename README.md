@@ -22,7 +22,8 @@
   <pre align="center">
   https://cdn.jsdelivr.net/gh/17344config/clash-config@release/external_config.ini   
   https://cdn.jsdelivr.net/gh/17344config/clash-config@release/MSService-rules.txt
-  https://cdn.jsdelivr.net/gh/17344config/clash-config@release/AIService-rules.txt</pre>
+  https://cdn.jsdelivr.net/gh/17344config/clash-config@release/AIService-rules.txt
+  </pre>
 </p>
 
 
