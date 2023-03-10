@@ -11,7 +11,7 @@
   </p>
  
   <p align="center">
-    <a href="https://github.com/17344config/clash-config/blob/master/external-config/external_config.ini">外部配置表</a> |
+    <a href="https://github.com/17344config/clash-config/blob/master/external-config/external-config.ini">外部配置表</a> |
     <a href="https://github.com/17344config/clash-config/blob/master/rules/MSService-rules.txt">微软服务规则列表</a> |
     <a href="https://github.com/17344config/clash-config/blob/master/rules/AIService-rules.txt">AI服务规则表</a>
   </p>
@@ -20,7 +20,7 @@
 
 <p>
   <pre align="center">
-  https://cdn.jsdelivr.net/gh/17344config/clash-config@release/external_config.ini   
+  https://cdn.jsdelivr.net/gh/17344config/clash-config@release/external-config.ini   
   https://cdn.jsdelivr.net/gh/17344config/clash-config@release/MSService-rules.txt
   https://cdn.jsdelivr.net/gh/17344config/clash-config@release/AIService-rules.txt
   </pre>
